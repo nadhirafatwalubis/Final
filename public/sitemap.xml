@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://booking.test</loc>
+        <lastmod>2022-02-08T21:54:53+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://booking.test//</loc>
+        <lastmod>2022-02-08T21:54:50+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://booking.test/about</loc>
+        <lastmod>2022-02-08T21:54:55+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://booking.test/blog</loc>
+        <lastmod>2022-02-08T21:54:55+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://booking.test/contact</loc>
+        <lastmod>2022-02-08T21:54:55+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://booking.test/destination</loc>
+        <lastmod>2022-02-08T21:54:54+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://booking.test/gallery</loc>
+        <lastmod>2022-02-08T21:54:54+07:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
