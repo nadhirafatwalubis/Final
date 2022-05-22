@@ -1,0 +1,24 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// put your lib here 
+@import '~bootstrap-star-rating/css/star-rating';
+@import '~bootstrap-star-rating/themes/krajee-fas/theme';
+
+@import '~select2/dist/css/select2';
+
+@import '../lib/lightGallery/css/lightgallery.min';
+
+@import '~owl.carousel/dist/assets/owl.carousel';
+@import '~owl.carousel/dist/assets/owl.theme.default.min';
+
+@import '../css/frontend/animate';
+
+@import '../css/frontend/magnific-popup';
+@import '../css/frontend/bootstrap-datepicker';
+@import '../css/frontend/jquery.timepicker';
+@import '../css/frontend/flaticon';
+@import '../css/frontend/style';
+
+@import './frontend';

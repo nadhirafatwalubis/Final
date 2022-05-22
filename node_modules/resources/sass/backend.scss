@@ -1,0 +1,247 @@
+// Template Settings
+* {
+    outline: none !important;
+}
+
+.main-content {
+    padding-top: 55px;
+    position: static;
+}
+
+.section>*:first-child {
+    margin-top: 0px !important;
+}
+
+.sticky-top {
+    z-index: 999;
+}
+
+.main-sidebar {
+    z-index: 1003;
+}
+
+.sidebar-mini .nb {
+    left: 90px;
+}
+
+.nb {
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    right: 30px;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.nb>*:first-child {
+    margin-top: -7px;
+}
+
+.nb .nb-header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nb .nb-header h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 3px;
+    color: #34395e;
+}
+
+.nb .nb-header .nb-header-back .btn:hover {
+    background-color: #6777ef;
+    color: #fff;
+}
+
+.nb .nb-header .nb-header-button {
+    margin-left: 20px;
+}
+
+.nb .nb-header .nb-header-breadcrumb {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nb .nb-header .nb-header-breadcrumb .breadcrumb-item {
+    font-size: 12px;
+}
+
+.nb .nb-header .btn {
+    font-size: 12px;
+}
+
+.nb .nb-header .nb-header-back {
+    margin-right: 15px;
+}
+
+
+@media (max-width: 375px) {
+    .nb .nb-header .nb-header-breadcrumb {
+        display: none;
+    }
+
+    .nb .nb-header h1 {
+        font-size: 14px;
+    }
+
+    .nb .nb-header .nb-header-back {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nb .nb-title {
+        font-size: 14px;
+    }
+
+    .nb .nb-header {
+        flex-wrap: wrap;
+        margin-bottom: 20px !important;
+    }
+
+    .nb .nb-header .float-right {
+        display: inline-block;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .nb .nb-header .nb-header-breadcrumb {
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+
+    body.search-show:before,
+    body.sidebar-show:before {
+        z-index: 1002;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nb {
+        left: 30px;
+    }
+}
+
+// end template settings
+
+// dropzone
+.dz-image img {
+    width: 130px;
+    height: 130px;
+}
+
+.dz-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.dz-image>img {
+    width: 100%;
+    height: 130px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+// Datatable
+.fit {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.act-btn {
+    padding: 0.1rem 0.1rem;
+    width: 38px;
+    height: 38px;
+    line-height: 34px;
+    border-radius: 50%;
+    margin: 0px 1px;
+
+    span {
+        font-size: 16px !important;
+    }
+}
+
+button.btn.disabled {
+    pointer-events: none;
+}
+
+.dt-bootstrap4 {
+    select.form-control:not([size]):not([multiple]) {
+        padding: 10px 25px;
+    }
+}
+
+// end Datatable================
+
+// form
+.form-control-label {
+    font-weight: 700 !important;
+}
+
+.textarea-md {
+    height: 70px !important;
+}
+
+.image-upload {
+    border: none !important;
+}
+
+.image-upload img {
+    max-height: 200px !important;
+    max-width: 100%;
+    border: none !important;
+}
+
+// End Form
+
+// sweet alert
+.swal2-actions {
+    margin: 0 auto 0 !important;
+}
+
+// end sweet alert
+
+// select2
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    border-right: none !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+    padding-left: 7px;
+}
+
+//star rating
+.rating-input {
+    position: absolute !important;
+}
+
+.rating-container .rating-stars:focus {
+    outline: none;
+}
+
+.tabs-title-wrap * {
+    display: inline;
+}
+
+.phone-input-handle {
+    min-width: 150px !important;
+}

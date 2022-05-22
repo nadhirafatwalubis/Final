@@ -1,0 +1,52 @@
+// Fonts
+@import url("//fonts.googleapis.com/css?family=Nunito:400,600,700,800");
+
+// Variables
+@import 'variables';
+
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.css';
+
+@import '~datatables.net-select-bs4/css/select.bootstrap4.min.css';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// put your lib here 
+
+// dropzone
+@import '../lib/dropzone/basic.min';
+@import '../lib/dropzone/dropzone.min';
+
+// star
+@import '~bootstrap-star-rating/css/star-rating';
+@import '~bootstrap-star-rating/themes/krajee-fas/theme';
+
+// tempus dominus
+@import '@eonasdan/tempus-dominus';
+
+@import '~codemirror/lib/codemirror';
+@import '~codemirror/addon/scroll/simplescrollbars.css';
+@import '~codemirror/theme/material-darker';
+
+// select2
+@import '~select2/dist/css/select2';
+
+// datatable checkbox
+@import '../lib/datatables-checkboxes/dataTables.checkboxes';
+
+// selectric
+@import '../lib/selectric/selectric';
+
+// jasny bootstrap
+@import '../lib/jasny-bootstrap/css/jasny-bootstrap';
+
+// @import '../lib/ionicons/css/ionicons';
+
+// end lib
+
+@import '../css/backend/style';
+
+@import '../css/backend/components';
+
+@import 'backend';
